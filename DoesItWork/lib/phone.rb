@@ -12,7 +12,7 @@ end
 
 
 def speak
-    puts " I am a phone"
+    puts " I am a phone!"
 end
 
 
