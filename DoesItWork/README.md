@@ -5,10 +5,10 @@ Does the iPhone purchase in the USA works at 4g/LTE speed overseas?
 
 To address this, DoesItWork gem scrape the Apple website containing the LTE bands
 of the unlock iPhone models and frequencycheck.com to obtain the LTE bands use
-in international countries. Than, its compares those two data to deliver the
+in international countries. Than, it compares those two data to deliver the
 probability of LTE coverage that the user may get in their countries.
 
-Currently, there are a few countries that do not support LTE which were not include
+Currently, there are few countries that do not support LTE which were not include
 in this gem. If you type in an unsupported country, the gem will warn you of an "underfined method"
 error. Fixes are coming soon.
 
