@@ -30,7 +30,7 @@ Or install it yourself as:
 
 ## Usage
 
-Run the app file on your terminal <<ruby app.rb>>
+Run the app file on your terminal "ruby app.rb"
 Than follow the the Prompt on the screen.
 
 
