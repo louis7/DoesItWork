@@ -37,7 +37,9 @@ end
 
  def self.scrape_country (name_of_country)
         # scrape the bands from the frequencycheck site
-        #todo : need to be aware if search results returns nil.
+        #todo : need to be aware if search results returns nil because of reasons..
+       # ..like name of country may not be listed on frequencycheck.
+
      url = "https://www.frequencycheck.com/countries/#{name_of_country}"
      @@country_bands = []
      @@index_page = Nokogiri::HTML(open(url))

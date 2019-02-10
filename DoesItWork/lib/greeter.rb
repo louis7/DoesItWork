@@ -26,14 +26,13 @@ end
 def user_phone_choice
     @user_input =  gets.chomp.to_i
     # magic array corespond wiht the inital greeting message
-    if [1,2,3].include? @user_input
-        puts "Thank You!"
-        @phone_choice << @user_input
-    else
-        puts "invalid input."
-        @user_input =  gets.chomp.to_i
-        @phone_choice << @user_input
+    while [1,2,3].include?(@user_input) == false
+      puts "invalid input"
+      @user_input =  gets.chomp.to_i
     end
+      puts "thank you"
+      @phone_choice << @user_input
+
 end
 
 

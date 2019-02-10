@@ -7,9 +7,8 @@ attr_accessor :name, :bands, :carriers
 #carriers should be a hash
 
 def initialize (name)
-    @name= name
-    @bands= Scrapper.scrape_country(name)
-  #  @carriers = carriers
+    @name  = name
+    @bands = Scrapper.scrape_country(name)
 end
 
 def speak
